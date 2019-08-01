@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ca6bab-fd58-4ba3-acdd-c282c9d0d572" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/Role.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserRole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/model/system/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/model/system/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/security/AuthProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/security/LoginAuthFailHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/security/LoginUrlEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjxspace/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-online.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/emotion.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjxspace/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjxspace/util/UUIDGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/emotion.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/emotion.sql" afterDir="false" />
     </list>
     <ignored path="weixinCRM2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,7 +79,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="47" />
           <entry key="properties" value="5" />
           <entry key="sql" value="4" />
           <entry key="xml" value="7" />
@@ -106,7 +88,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="47" />
           <entry key="Properties" value="5" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="7" />
@@ -137,18 +119,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/security/AuthProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/MainApplicion.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -192,11 +162,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db/emotion.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="227">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -222,13 +192,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserRoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="270">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -304,12 +287,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xjxspace/util/UUIDGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/MainApplicion.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/emotion.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/Role.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/RoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserRole.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/emotion.sql" />
       </list>
     </option>
   </component>
@@ -759,7 +742,7 @@
       <workItem from="1543112733750" duration="618000" />
       <workItem from="1543327158097" duration="514000" />
       <workItem from="1564670940311" duration="171000" />
-      <workItem from="1564671125878" duration="9417000" />
+      <workItem from="1564671125878" duration="9779000" />
     </task>
     <servers />
   </component>
@@ -775,7 +758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34332000" />
+    <option name="totallyTimeSpent" value="34694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,11 +780,11 @@
       <window_info id="Favorites" order="4" sideWeight="0.50803214" side_tool="true" weight="0.25" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.37381917" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.37381917" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.37516868" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -929,13 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -1254,13 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/emotion.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1301,11 +1270,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/mapper/system/UserRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="270">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjxspace/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/emotion.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>

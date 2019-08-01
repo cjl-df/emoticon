@@ -42,4 +42,14 @@ BEGIN;
 INSERT INTO `emotion`.`user` (`id`, `user_id`, `user_name`, `user_account`, `password`, `enable`, `avatar`, `email`, `phone_number`, `third_party_account`, `create_time`, `last_login_time`) VALUES ('1', 'ac9567d5fd0b4c539ccc90ac57f015c1', 'admin', 'admin', '55b3d0936a3fb63168d57a6bda0ddbbf', '1', NULL, NULL, NULL, NULL, '2019-08-02 00:59:31', '2019-08-02 00:59:35');
 COMMIT;
 
+CREATE TABLE `user_role` (
+  `id` int(11) NOT NULL,
+  `user_id` varchar(32) NOT NULL,
+  `role_id` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `emotion`.`user_role` (`id`, `user_id`, `role_id`) VALUES ('1', 'ac9567d5fd0b4c539ccc90ac57f015c1', 'de42c0682bc14bc2a60b180afc1f73f2');
+
+
 
