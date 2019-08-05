@@ -68,7 +68,7 @@
     <session id="1436284081">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -719,7 +719,7 @@
       <workItem from="1564671125878" duration="9954000" />
       <workItem from="1564822377021" duration="616000" />
       <workItem from="1564934659571" duration="1109000" />
-      <workItem from="1565010240076" duration="1858000" />
+      <workItem from="1565010240076" duration="2674000" />
     </task>
     <servers />
   </component>
@@ -735,7 +735,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38452000" />
+    <option name="totallyTimeSpent" value="39268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,14 +749,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49196786" visible="true" weight="0.29434448" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49196786" visible="true" weight="0.29434448" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50803214" side_tool="true" weight="0.25" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
